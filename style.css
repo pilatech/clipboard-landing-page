@@ -165,3 +165,136 @@ h3 {
 .social__icon {
  margin-inline: 2rem;
 }
+
+@media(min-width: 1200px){
+ 
+ body > * {
+  width: 100%;
+  max-width: 100%;
+ }
+ 
+
+ 
+ .hero {
+  background: url(images/bg-header-desktop.png);
+  padding-top: var(--space-x-large);
+  background-size: cover;
+  background-position: top;
+ }
+ 
+
+ 
+ /* cta component */
+ .cta {
+  width: 45%;
+  margin-inline: auto;
+ }
+
+     /* >> btn component */
+  .btn {
+   width: 40%;
+  }
+
+  .btn:hover,
+  .btn:active {
+   opacity: .8;
+   transition: opacity .2s;
+  }
+ 
+  .btn--secondary {
+   margin-top: 0;
+   margin-left: 1.5rem;;
+  }
+ 
+  /* section header component and section related stuff */
+  .section__header {
+    width: 50%;
+    margin-inline: auto;
+  }
+
+  .section--sneak-peak__hero {
+   display: flex;
+   gap: var(--space-large);
+   text-align: left;
+  }
+
+  .section--sneak-peak__features {
+   width: 30%;
+  }
+
+  .section--demo__hero-image {
+    margin-inline: auto;
+  }
+
+
+  .section--features__features {
+   margin-inline: auto;
+   display: flex;
+   width: 80%;
+   gap: var(--space-small);
+  } 
+
+  .section--features__features .feature {
+   margin-top: 0;
+  }
+
+
+ 
+  
+  /* logos */
+ 
+ .clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-inline: auto;
+ }
+
+ .clients__logo {
+  margin-inline: auto;
+ }
+ 
+ .clients__logo:not(.clients__logo:last-of-type){
+  margin-bottom: 0;
+ }
+ 
+ /* footer */
+ .main-footer {
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--space-small);
+  padding-inline: 10%;
+ }
+ 
+ .footer__logo {
+  margin-bottom: 0;
+  margin-inline: 0;
+  margin-right: var(--space-large)
+ }
+ 
+ .footer__menu {
+  margin-left: var(--space-large);
+ }
+ 
+ .footer__list {
+  margin-bottom: 1rem;
+ }
+ 
+ .footer__link:hover,
+ .footer__link:active {
+   color: var(--color-accent-primary);
+ }
+ 
+ .social {
+  margin-top: 0;
+  align-self: center;
+  margin-left: auto;
+ }
+ 
+.social__link:hover {
+  opacity: .8;
+}
+
+}
