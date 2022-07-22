@@ -57,7 +57,6 @@ h3 {
  font-size: 3.2rem;
 }
 
-
 .hero {
  background: url(images/bg-header-mobile.png);
  padding-top: var(--space-x-large);
@@ -119,9 +118,7 @@ h3 {
   margin-inline: auto;
  }
 
- 
  /* logo */
-
 .clients__logo {
  margin-inline: auto;
 }
@@ -173,16 +170,12 @@ h3 {
   max-width: 100%;
  }
  
-
- 
  .hero {
   background: url(images/bg-header-desktop.png);
   padding-top: var(--space-x-large);
   background-size: cover;
   background-position: top;
  }
- 
-
  
  /* cta component */
  .cta {
@@ -226,7 +219,6 @@ h3 {
     margin-inline: auto;
   }
 
-
   .section--features__features {
    margin-inline: auto;
    display: flex;
@@ -238,9 +230,6 @@ h3 {
    margin-top: 0;
   }
 
-
- 
-  
   /* logos */
  
  .clients {
